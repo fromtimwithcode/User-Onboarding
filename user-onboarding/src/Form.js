@@ -29,7 +29,7 @@ const {name, type, } = event.target
                 <label htmlFor="terms">Terms of Service:</label>
                 <input name="agree" type="checkbox" id="terms"/>
 
-                <button type={"submit"}>Submit</button>
+                <button type={"submit"} name="submitBtn" id="submitBtn">Submit</button>
             </form>
         </div>
     )}
